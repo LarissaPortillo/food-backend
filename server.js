@@ -31,7 +31,7 @@ app.use(cors());
 //Routes
 //review
 app.use('/api/review', reviewRoutes);
-app.use('/api/food', foodRoutes);
+app.use('/food', foodRoutes);
 app.use('/api/user', userRoutes);
 
 
