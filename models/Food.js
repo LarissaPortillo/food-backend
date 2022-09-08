@@ -1,17 +1,15 @@
 const mongoose = require('mongoose');
 
 const foodSchema = new mongoose.Schema({
-    food: String,
+    name: String,
     film: String,
     studio: String,
     ingredients: Array,
     instructions: String,
     time: Number,
     source: String,
-    video: String,
-    img_c: String,
-    img_f: String,
-    img_r: String,
+    img: String,
+    img_f:String,
 });
 
 const Food = mongoose.model('Food', foodSchema);
